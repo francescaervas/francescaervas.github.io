@@ -33,3 +33,7 @@ ul#nav > li > a {
 #banner > img {
   width: 200px;
 }
+
+#text {
+    font-size: 1.2em;
+}
