@@ -2,7 +2,7 @@ const get_url = (par) => "https://raw.githubusercontent.com/francescaervas/franc
 
 const modifyText = e => {
     document.querySelector("#sub-title").innerHTML = e.target.innerHTML;
-    fetch(get_url(e.target.id))
+    fetch(get_url(e.target.id), {cache: "reload"})
         .then(x => x.text())
         .then(y => document.querySelector("#text").innerHTML = nl2br(y));
 };
