@@ -1,2 +1,17 @@
+const get_url = (par) => "https://raw.githubusercontent.com/francescaervas/francescaervas.github.io/master/" + par + ".txt";
 
-document.querySelector("#text").innerHTML="Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties. Happiness remainder joy but earnestly for off. Took sold add play may none him few. If as increasing contrasted entreaties be. Now summer who day looked our behind moment coming. Pain son rose more park way that. An stairs as be lovers uneasy. Happiness remainder joy but earnestly for off. Took sold add play may none him few. If as increasing contrasted entreaties be. Now summer who day looked our behind moment coming. Pain son rose more park way that. An stairs as be lovers uneasy.";
+const modifyText = e => {
+    document.querySelector("#sub-title").innerHTML = e.target.innerHTML;
+    fetch(get_url(e.target.id))
+        .then(x => x.text())
+        .then(y => document.querySelector("#text").innerHTML = nl2br(y));
+};
+
+const nl2br = (str) => str.replace(/(?:\r\n|\r|\n)/g, '<br>');
+
+window.addEventListener('DOMContentLoaded', (e) => {
+    document.querySelectorAll("#nav a")
+        .forEach(e => e.addEventListener("click", modifyText, false));
+    document.getElementById('about-me').click();
+});
+
