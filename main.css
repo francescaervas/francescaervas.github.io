@@ -27,5 +27,9 @@ ul#nav>li>a {
 
 #content {
   display: grid;
-  grid-template-columns: 220px auto;
+  grid-template-columns: 270px auto;
+}
+
+#banner > img {
+  width: 200px
 }
