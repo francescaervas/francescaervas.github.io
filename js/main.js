@@ -6,8 +6,8 @@ const modifyText = e => {
     fetch(get_url(e.target.id), {cache: "reload"})
         .then(x => x.text())
         .then(y => {
-          document.querySelector("#text").innerHTML = nl2br(y);
           spinner.setAttribute("hidden", "");
+          document.querySelector("#text").innerHTML = nl2br(y);
         });
 };
 
