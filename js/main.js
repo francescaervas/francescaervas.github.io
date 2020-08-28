@@ -1,13 +1,13 @@
 const get_url = (par) => "https://raw.githubusercontent.com/francescaervas/francescaervas.github.io/master/data/" + par + ".txt";
 
 const modifyText = e => {
-    //spinner.removeAttribute("hidden");
+    spinner.removeAttribute("hidden");
     document.querySelector("#sub-title").innerHTML = e.target.innerHTML;
     fetch(get_url(e.target.id), {cache: "reload"})
         .then(x => x.text())
         .then(y => {
           document.querySelector("#text").innerHTML = nl2br(y);
-          //spinner.setAttribute("hidden", "");
+          spinner.setAttribute("hidden", "");
         });
 };
 
