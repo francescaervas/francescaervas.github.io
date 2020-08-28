@@ -1,11 +1,6 @@
-body {
-  background-color: lightgray;
-}
 .App {
-  background-color: white;
   margin: auto;
   width: 80%;
-  padding: 40px;
 }
 
 ul#nav {
