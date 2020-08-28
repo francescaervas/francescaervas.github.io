@@ -1,0 +1,39 @@
+body {
+  background-color: lightgray;
+}
+.App {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  padding: 40px;
+}
+
+ul#nav {
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+ul#nav > li {
+  display: inline;
+  padding-right: 20px;
+}
+ul#nav > li > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #6a6a6a;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 270px auto;
+}
+
+#banner > img {
+  width: 200px;
+}
+
+#text {
+    font-size: 1.2em;
+}
