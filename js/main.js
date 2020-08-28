@@ -1,4 +1,4 @@
-const get_url = (par) => "https://raw.githubusercontent.com/francescaervas/francescaervas.github.io/master/" + par + ".txt";
+const get_url = (par) => "https://raw.githubusercontent.com/francescaervas/francescaervas.github.io/master/data/" + par + ".txt";
 
 const modifyText = e => {
     spinner.removeAttribute("hidden");
