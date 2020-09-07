@@ -1,0 +1,4 @@
+- 2020-2021 “Two senses of mental imagery in language comprehension”, Small RAS Research Grant (University of Cagliari/EHESS-ENS, Paris). Visiting Prof. M. Arcangeli. Role: PI and Host Investigator
+- 2019-2020 “What is Translation? Exploring the missing link between neuroscience and psychiatry”. Theme Group Research Grant at NIAS, Amsterdam. Collaborations with L. De Bruin (Radbound University), G. Glas (VU Amsterdam), J. Geurts (University of Amsterdam), A. Kalis (University of Utrecht)
+- 2017 “Persuasive effects of figurative language”, Small RAS Research Grant (UniCa/Univ. of Birmingham). Visiting Prof. J. Barnden. Role: PI and Host Investigator
+- 2010-2012 “The role of stereotypes in irony comprehension in autism spectrum disorders”, European Science Foundation, EURO-XPRAG (Experimental Pragmatics in Europe). Role: Co-PI with K. Bromberek-Dyzman, T. Zalla
